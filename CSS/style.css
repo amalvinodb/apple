@@ -1,0 +1,427 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    
+    
+}
+.line{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+.deActive{
+    text-decoration: none;
+}
+.header{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 44px;
+    background: rgba(0,0,0,0.8);
+    
+}
+.navBar{
+    margin-left: auto;
+    height: 44px;
+    width: 82%;
+}
+
+.appleLogo{
+    background-image: url('../IMAGE/appleLogo.svg');
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 44px;
+    margin-top: 10px;
+    float: left;
+}
+sup{
+    font-size: 9px;
+}
+.menuItem{
+    color: white;
+    font-size: 12px;
+    float: left;
+    margin-top: 13px;
+    padding-left: 37px;
+}
+.search{
+    background-image: url('../IMAGE/icons8-search.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+}
+.shoping{
+    background-image: url('../IMAGE/shopping-bag-svgrepo-com.svg');
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.body{
+    padding-top: 44px;
+    
+}
+.offer{
+    background-color: #f5f5f7;
+    width: 100%;
+    height: 44px;  
+    
+}
+.offer div{
+    padding-top: 10px;
+    font-size: 14px;
+    
+    text-align: center;
+}
+.hero{
+    background-image: url('../IMAGE/macBookAir.png');
+    background-repeat: no-repeat;
+    background-size: 197% 630px;
+    background-position: center -46px;
+    width: 100%;
+    height: 580px;
+    margin-bottom: 12px;
+}
+.hero h1{
+    font-size: 56px;
+    font-weight: 600;
+    padding-top: 160px;
+    padding-left: 330px;
+}
+.suCrM2{
+    background-image: url('../IMAGE/SuperchargedbyM2.png');
+    background-repeat: no-repeat;
+    height: 41px;
+    width: auto;
+    margin-left: 360px;
+}
+.hero li{
+    float: left;
+    margin-left: 70px;
+    
+}
+.hero ul{
+    margin-left: 330px;
+    font-size: 21px;
+    color: rgb(0, 102, 204);
+}
+.hero2{
+    background-image: url('../IMAGE/ipadplus.jpg');
+    background-repeat: no-repeat;
+    background-size: 200% 104%;
+    background-position: 50% 106%;
+    width: 100%;
+    height: 624px;
+}
+.hero2 h1{
+    font-size: 56px;
+    font-weight: 600;
+    margin-left: 320px;
+    padding-top: 40px;
+    
+}
+.hero2 h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.cta2{
+    color: #06c;
+    margin-left: 705px;  
+}
+.hero2 h1 span{
+    color: #ca2166;
+}
+.hero3{
+    background-image: url('../IMAGE/appleWatch.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    height: 624px;
+    margin-top: 10px;
+}
+
+.appleWatch{
+    width: auto;
+    background-repeat: no-repeat;
+    height: 72px;
+    margin-left: 700px;
+    padding-top: 50px;
+    
+}
+.hero3 h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 640px;
+    margin-top: 10px;
+}
+.cta1{
+    margin-left: 700px;
+}
+.hero3 a{
+    float: left;
+    font-size: 21px;
+    color: #06c;
+    text-decoration: none;
+    padding-right: 50px;
+}
+.sub1{
+    background-image: url('../IMAGE/iphone\ 13.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 49%;
+    height: 624px; 
+    float: left;
+    margin-right: 1%;
+}
+.head1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 270px;
+    margin-top: 80px;
+}
+.tag1{
+    font-size: 21px;
+    font-weight: 400;
+    margin-left: 260px;
+}
+.tag2{
+    font-size: 21px;
+    font-weight: 400;
+    margin-left: 345px;
+}
+.hero4 a{
+    float: left;
+    margin-right: 50px;
+    font-size: 21px;
+    color: #06c;
+    text-decoration: none;
+}
+.cta3{
+    margin-left: 300px;
+}
+.sub2{
+    background-image: url('../IMAGE/promo\ iphone13.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 49%;
+    height: 624px;  
+    float: left; 
+}
+.sub3{
+    background-image: url('../IMAGE/macBookPro13.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 624px;
+    width: 741px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sub3 h3{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 195px;
+    margin-top: 90px;
+}
+.sub3 a{
+    color: #2997ff;
+    float: left;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.cta4{
+    margin-left: 240px;
+}
+.sub4{
+    background-image: url('../IMAGE/ipadAir.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 624px;
+    width: 741px;
+    float: left;
+}
+.sub4 a{
+    color: #2997ff;
+    float: left;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.sub4 h3{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+    margin-left: 240px;
+}
+
+.sub5{
+    background-image: url('../IMAGE/subwaysurfers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 624px;
+    width: 741px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.sub5 h3{
+    font-size: 21px;
+    font-weight: 400;
+    margin-left: 225px;
+}
+.sub5 a{
+    color: #2997ff;
+    float: left;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.cta5{
+    margin-left: 190px;
+}
+.sub6{
+    background-image: url('../IMAGE/blackbird.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 624px;
+    width: 741px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.fmenu{
+   
+    width: 980px;
+    margin-left: 15%;
+}
+.fMenuBlock{
+    float: left;    
+    width: 196px;
+}
+.m2Glow{
+    background-image: url('../IMAGE/m2glowlogo.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 51px;
+    margin-left: 250px;
+}
+.iair{
+    background-image: url('../IMAGE/ipadAirlogo.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 37px;
+    margin-top: 100px;
+    margin-left: 290px;
+}
+.iarcade{
+    background-image: url('../IMAGE/arcadeLogo.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 34px;
+    margin-top: 100px;
+    margin-left: 245px;
+}
+.itv{
+    background-image: url('../IMAGE/appletvpluslogo.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 31px;
+    margin-top: 50px;
+    margin-left: 320px;
+}
+.poster{
+    background-image: url('../IMAGE/blackBirdLogo.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 93px;
+    margin-top: 290px;
+    margin-left: 245px;
+}
+.tag6{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+    margin-left: 258px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+.cta6{
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+    margin-left: 300px;
+   
+}
+.feet{
+    background-color: #f5f5f7;
+    height: 500px;
+    margin-top: 1900px;
+}
+.text1{
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.fMenuBlock li{
+    font-size: 12px;
+    font-weight: 400;
+    color: #424245;
+}
+.fMenuBlock label{
+    font-size: 12px;
+    font-weight: 600;
+    color: #272729;
+}
+.footnot{
+    color: #424245;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.cta9{
+    text-decoration: none;
+}
+.footnot1{
+    font-size: 1em;
+    font-weight: 400;
+    color: #424245;
+    float: left;
+   
+}
+.policy{
+    float: left;
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: 400;
+}  
+.deactive{
+    text-decoration: none;
+    color: #424245;
+}
+.linel{
+    padding-left: 10px;
+    border-left: 1px solid #424245;
+}
+.fcta{
+    margin-left: 150px;
+
+    
+}
