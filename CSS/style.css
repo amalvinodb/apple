@@ -266,6 +266,8 @@ sup{
     font-size: 21px;
     font-weight: 400;
     margin-left: 240px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .sub5{
@@ -283,7 +285,9 @@ sup{
 .sub5 h3{
     font-size: 21px;
     font-weight: 400;
-    margin-left: 225px;
+    margin-left: 240px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .sub5 a{
     color: #2997ff;
